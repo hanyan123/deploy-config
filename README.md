@@ -1,3 +1,7 @@
+### 2.配置部署环境
+部署配置文件位于deploy文件夹下的`deploy.config.js`,
+配置如下
+
 const config = [
     
     { // 测试环境
@@ -27,5 +31,7 @@ const config = [
 ]
 
 module.exports = {
-    config
+  config
 }
+
+deploy -v查看版本号
